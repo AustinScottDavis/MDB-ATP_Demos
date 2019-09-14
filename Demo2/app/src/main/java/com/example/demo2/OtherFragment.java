@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+// Bare skeleton for a fragment
 public class OtherFragment extends Fragment {
 
     @NonNull
