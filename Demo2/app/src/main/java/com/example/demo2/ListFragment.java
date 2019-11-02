@@ -40,8 +40,10 @@ public class ListFragment extends Fragment {
 
         // Setting up the RecyclerView
         RecyclerView recycler = getView().findViewById(R.id.recycler);
+        
         RecyclerView.LayoutManager manager = new LinearLayoutManager(getContext());
         recycler.setLayoutManager(manager);
+
         RecyclerView.Adapter adapter = new Adapter(getContext(), data);
         recycler.setAdapter(adapter);
     }
