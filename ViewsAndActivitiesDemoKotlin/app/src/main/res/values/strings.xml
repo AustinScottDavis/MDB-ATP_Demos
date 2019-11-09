@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewsAndActivitiesDemoKotlin</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+</resources>
